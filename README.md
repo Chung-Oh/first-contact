@@ -1,2 +1,2 @@
 # hello-word
-Aprendendo como funciona o GitHub
+Aprendendo  a  trabalhar na plataforma GitHub.
