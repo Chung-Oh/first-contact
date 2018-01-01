@@ -1,2 +1,2 @@
-# hello-word
-Aprendendo como funciona o GitHub
+#hello world
+Aprendendo a trabalhar com GitHub
