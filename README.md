@@ -7,14 +7,21 @@ CRUD simples com:
 > - Components & Slots
 > - Flash messages
 
-# Instanlado Laravel IDE Helper Generator (phpDocs), ajuda com autocomplete
+# Laravel IDE Helper Generator
+Instanlado (phpDocs) ajuda com autocomplete
+
 `composer require --dev barryvdh/laravel-ide-helper`
 
-1. *Após instalação executar:*
+1. **Após instalação executar:**
+
+>*qualquer IDE*
+
 `php artisan ide-helper:generate`
 
-*phpStorm - IDE*
+>*phpStorm - IDE*
+
 `php artisan ide-helper:meta`
 
-2. *Models*
+2. **Models**
+
 `php artisan ide-helper:models`
