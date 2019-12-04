@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Http\Controllers\Admin;
+
 use App\Client;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -126,6 +128,12 @@ class ClientsController extends Controller
         $rulesLegal = [
             'company_name'        => 'required|max:255'
         ];
+        // dd(
+        //     ($rules + $rulesIndividual),
+        //     ($rules + $rulesLegal),
+        //     Client::TYPE_INDIVIDUAL ? ($rules + $rulesIndividual) : ($rules + $rulesLegal),
+        //     $request
+        // );
         return $this->validate(
             $request,
             $clientType == Client::TYPE_INDIVIDUAL ? ($rules + $rulesIndividual) : ($rules + $rulesLegal)

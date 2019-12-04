@@ -56,7 +56,21 @@
             </tr>
             <tr>
                 <th scope="row">Sexo</th>
-                <td>{{$client->sex == 'm' ? 'Masculino' : 'Feminino'}}</td>
+                <td>
+                    @switch($client->sex)
+                        @case('')
+                            @break
+
+                        @case('f')
+                            Feminino
+                            @break
+
+                        @case('m')
+                            Masculino
+                            @break
+                    @endswitch
+                </td>
+                <!-- <td>{{$client->sex == 'm' ? 'Masculino' : 'Feminino'}}</td> -->
             </tr>
             <tr>
                 <th scope="row">Def. Física</th>
