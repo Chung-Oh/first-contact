@@ -8,7 +8,7 @@ CRUD simples com:
 > - Flash messages
 
 # Laravel IDE Helper Generator
-Instanlado (phpDocs) ajuda com autocomplete
+Instanlado (phpDocs) ajuda com autocomplete (https://github.com/barryvdh/laravel-ide-helper)
 
 `composer require --dev barryvdh/laravel-ide-helper`
 
@@ -25,3 +25,15 @@ Instanlado (phpDocs) ajuda com autocomplete
 2. **Models**
 
 `php artisan ide-helper:models`
+
+# Laravel Lang
+Traduzir mensagens de validações entre outras (https://github.com/caouecs/Laravel-lang)
+
+`composer require caouecs/laravel-lang:~4.0 --dev`
+
+Configurando biblioteca:
+
+1. Assim que importar, ir em vendor/caouecs/src
+2. Copiar diretório vendor/caouecs/src/pt-BR/
+3. Colar em resources/lang/
+4. Ir em config/app.php na chave 'locale', mudar en para pt-BR
