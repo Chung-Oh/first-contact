@@ -30,7 +30,6 @@ class AppServiceProvider extends ServiceProvider
         // Usando biblioteca da Code Education abaixo
         \Validator::extend('document_number', function ($attribute, $value, $parameters, $validator) {
             $documentValidator = $parameters[0] == 'cpf' ? new Cpf() : new Cnpj();
-            // dd($documentValidator->isValid($value));
             return $documentValidator->isValid($value);
         });
 

@@ -6,6 +6,7 @@ CRUD simples com:
 > - Paginação
 > - Components & Slots
 > - Flash messages
+> - Helper assets
 
 # Laravel IDE Helper Generator
 Instanlado (phpDocs) ajuda com autocomplete (https://github.com/barryvdh/laravel-ide-helper)
