@@ -38,3 +38,8 @@ Configurando biblioteca:
 2. Copiar diretório vendor/caouecs/src/pt-BR/
 3. Colar em resources/lang/
 4. Ir em config/app.php na chave 'locale', mudar en para pt-BR
+
+# Laravel Collective
+Biblioteca para trabalhar com formulários (https://laravelcollective.com/)
+
+`composer require laravelcollective/html`
