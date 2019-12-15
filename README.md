@@ -15,11 +15,11 @@ Instanlado (phpDocs) ajuda com autocomplete (https://github.com/barryvdh/laravel
 
 1. **Após instalação executar:**
 
->*qualquer IDE*
+- *qualquer IDE*
 
 `php artisan ide-helper:generate`
 
->*phpStorm - IDE*
+- *phpStorm - IDE*
 
 `php artisan ide-helper:meta`
 
